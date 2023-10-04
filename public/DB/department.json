@@ -2,33 +2,33 @@
   "members": [
     {
       "name": "Anna",
-      "posltion": "President",
+      "position": "President",
       "pic": "mem1.jpg"
     },
     {
       "name": "Lily",
-      "posltion": "UI Desinger",
-      "pic": "mem1.jpg"
+      "position": "UI Desinger",
+      "pic": "mem2.jpg"
     },
     {
       "name": "Lucy",
-      "posltion": "Vice President",
-      "pic": "mem1.jpg"
+      "position": "Vice President",
+      "pic": "mem3.jpg"
     },
     {
       "name": "Michael",
-      "posltion": "Frontend Developer",
-      "pic": "mem1.jpg"
+      "position": "Frontend Developer",
+      "pic": "mem4.jpg"
     },
     {
       "name": "Helen",
-      "posltion": "Backtend Developer",
-      "pic": "mem1.jpg"
+      "position": "Backtend Developer",
+      "pic": "mem5.jpg"
     },
     {
       "name": "David",
-      "posltion": "anager",
-      "pic": "mem1.jpg"
+      "position": "anager",
+      "pic": "mem6.jpg"
     }
   ]
 }
