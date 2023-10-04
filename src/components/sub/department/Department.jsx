@@ -6,6 +6,11 @@ export default function Department() {
 	return (
 		<Layout title={'Department'} styleName={styles.department}>
 			<p>디파트먼트 페이지입니다.</p>
+			<ul>
+				<li className={styles.abc}>list</li>
+				<li>list</li>
+				<li>list</li>
+			</ul>
 		</Layout>
 	);
 }

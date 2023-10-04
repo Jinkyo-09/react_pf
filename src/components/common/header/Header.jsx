@@ -13,6 +13,7 @@ export default function Header({ isMain }) {
 
 			<ul>
 				<li>
+					{/* NavLink 자동 이동, 클래스 네임 할당 */}
 					<NavLink to='/department' activeClassName={styles.active}>
 						Department
 					</NavLink>

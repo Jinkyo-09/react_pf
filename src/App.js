@@ -21,6 +21,7 @@ function App() {
 					<Header isMain={false} />
 				</Route>
 			</Switch>
+			{/* /department url을 추가하고 Department페이지 추가 */}
 			<Route path='/department' component={Department} />
 			<Route path='/gallery' component={Gallery} />
 			<Route path='/youtube' component={Youtube} />
