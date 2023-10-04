@@ -1,22 +1,25 @@
 import styles from './Layout.module.scss';
 import clsx from 'clsx';
 import { useEffect, useRef, useState } from 'react';
+import { useSplitText } from '../../../hooks/useSplit';
 
 export default function Layout({ title, children, styleName }) {
 	const [IsOn, setIsOn] = useState(false);
 	const frame = useRef(null);
 	const tit = useRef(null);
 
-	const splitText = (ref, gap = 0.1, delay = 0) => {
-		let count = 0;
-		let tags = '';
-		for (let letter of ref.current.innerText) {
-			tags += `<span style='transition-delay:${gap * count + delay}s'>${letter}</span>`;
-			count++;
-		}
-		ref.current.innerText = '';
-		ref.current.innerHTML = tags;
-	};
+	const splitText = useSplitText();
+
+	// const splitText = (ref, gap = 0.1, delay = 0) => {
+	// 	let count = 0;
+	// 	let tags = '';
+	// 	for (let letter of ref.current.innerText) {
+	// 		tags += `<span style='transition-delay:${gap * count + delay}s'>${letter}</span>`;
+	// 		count++;
+	// 	}
+	// 	ref.current.innerText = '';
+	// 	ref.current.innerHTML = tags;
+	// };
 
 	useEffect(() => {
 		//컴포넌트가 마운트되자마자 h1요소가 담겨있는 참조객체를 인수로 전달해서 글자 분리
