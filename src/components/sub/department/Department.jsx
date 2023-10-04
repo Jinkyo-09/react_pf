@@ -1,5 +1,5 @@
 import Layout from '../../common/layout/Layout';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import styles from './Department.module.scss';
 const path = process.env.PUBLIC_URL;
 
