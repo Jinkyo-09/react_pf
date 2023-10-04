@@ -1,0 +1,34 @@
+{
+  "members": {
+    {
+      "name": "Anna",
+      "posltion": "President",
+      "pic": "mem1.jpg"
+    },
+    {
+      "name": "Lily",
+      "posltion": "UI Desinger",
+      "pic": "mem1.jpg"
+    },
+    {
+      "name": "Lucy",
+      "posltion": "Vice President",
+      "pic": "mem1.jpg"
+    },
+    {
+      "name": "Michael",
+      "posltion": "Frontend Developer",
+      "pic": "mem1.jpg"
+    },
+    {
+      "name": "Helen",
+      "posltion": "Backtend Developer",
+      "pic": "mem1.jpg"
+    },
+    {
+      "name": "David",
+      "posltion": "Manager",
+      "pic": "mem1.jpg"
+    },
+  }
+}
