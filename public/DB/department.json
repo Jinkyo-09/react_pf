@@ -1,5 +1,5 @@
 {
-  "members": {
+  "members": [
     {
       "name": "Anna",
       "posltion": "President",
@@ -27,8 +27,8 @@
     },
     {
       "name": "David",
-      "posltion": "Manager",
+      "posltion": "anager",
       "pic": "mem1.jpg"
-    },
-  }
+    }
+  ]
 }
