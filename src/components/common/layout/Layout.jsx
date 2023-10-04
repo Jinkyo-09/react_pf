@@ -8,6 +8,7 @@ export default function Layout({ title, children, styleName }) {
 	const frame = useRef(null);
 	const tit = useRef(null);
 
+	//컴포넌트 안쪽에서 커스텀훅을 호출해서 함수를 반환받음(사용할 함수 활성화)
 	const splitText = useSplitText();
 
 	// const splitText = (ref, gap = 0.1, delay = 0) => {
